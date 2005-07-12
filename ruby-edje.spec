@@ -2,6 +2,7 @@
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 %define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 Summary:	Ruby binding to the edje library
+Summary(pl):	Dowi±zania jêzyka Ruby do biblioteki edje
 Name:		ruby-edje
 Version:	0
 Release:	1
@@ -18,17 +19,10 @@ Requires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Ruby binding to the Evas library.
+Ruby binding to the edje library.
 
-%if 0
-%package devel
-Summary: Header files for ruby-edje
-Group:	Development/Libraries
-Requires: %{name} = %{epoch}:%{version}-%{release}
-
-%description devel
-Header files for ruby-edje.
-%endif
+%description -l pl
+Dowi±zania jêzyka Ruby do biblioteki edje.
 
 %prep
 %setup -q -n ruby-edje
@@ -47,9 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{ruby_archdir}/*.so
-
-%if 0
-%files devel
-%{ruby_archdir}/edje
-%endif
+%attr(755,root,root) %{ruby_archdir}/*.so

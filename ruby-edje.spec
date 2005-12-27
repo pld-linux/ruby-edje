@@ -11,7 +11,6 @@ URL:		http://code-monkey.de/projects/ruby-efl.html
 BuildRequires:	edje-devel
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 BuildRequires:	ruby-ecore-devel
 Requires:	ruby-modules

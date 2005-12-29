@@ -10,10 +10,10 @@ Source0:	%{name}.tar.gz
 URL:		http://code-monkey.de/projects/ruby-efl.html
 BuildRequires:	edje-devel
 BuildRequires:	rake
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 BuildRequires:	ruby-ecore-devel
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

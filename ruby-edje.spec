@@ -1,5 +1,5 @@
 Summary:	Ruby binding to the edje library
-Summary(pl):	Dowi±zania jêzyka Ruby do biblioteki edje
+Summary(pl.UTF-8):   DowiÄ…zania jÄ™zyka Ruby do biblioteki edje
 Name:		ruby-edje
 Version:	0
 Release:	2
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Ruby binding to the edje library.
 
-%description -l pl
-Dowi±zania jêzyka Ruby do biblioteki edje.
+%description -l pl.UTF-8
+DowiÄ…zania jÄ™zyka Ruby do biblioteki edje.
 
 %prep
 %setup -q -n %{name}

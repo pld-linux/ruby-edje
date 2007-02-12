@@ -1,5 +1,5 @@
 Summary:	Ruby binding to the edje library
-Summary(pl.UTF-8):   Dowiązania języka Ruby do biblioteki edje
+Summary(pl.UTF-8):	Dowiązania języka Ruby do biblioteki edje
 Name:		ruby-edje
 Version:	0
 Release:	2

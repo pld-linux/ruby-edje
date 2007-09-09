@@ -7,7 +7,7 @@ License:	Ruby's
 Group:		Development/Languages
 Source0:	%{name}.tar.gz
 # Source0-md5:	63e27b8f8be6c377e57466bd495a71c1
-URL:		http://code-monkey.de/projects/ruby-efl.html
+URL:		http://code-monkey.de/pages/ruby-efl
 BuildRequires:	edje-devel
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
